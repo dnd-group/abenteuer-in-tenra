@@ -2,11 +2,12 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="abenteuer-in-tenra.index" url="https://raw.githubusercontent.com/EM2002/abenteuer-in-tenra/main/abenteuer-in-tenra.index" />
+      <file name="abenteuer-in-tenra.index" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/abenteuer-in-tenra.index" />
     </update>
   </info>
   <files>
-    <file name="source.xml" url="https://raw.githubusercontent.com/EM2002/abenteuer-in-tenra/main/content/source.xml" />
-    <file name="races.xml" url="https://raw.githubusercontent.com/EM2002/abenteuer-in-tenra/main/content/races.xml" />
+    <file name="source.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/source.xml" />
+    <file name="races.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/races.xml" />
+    <file name="backgrounds.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/backgrounds.xml" />
   </files>
 </index>

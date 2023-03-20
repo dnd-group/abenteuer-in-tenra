@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Snow Elf" type="Sub Race" source="Abenteuer in Tenra" id="ID_DNDG_AIT_SUB_RACE_SNOW_ELF">
+		<supports>Elf</supports>
+		<description>
+			<html>
+                &lt;h4&gt;Snow elf traits&lt;/h4&gt;
+                &lt;p&gt;Snow elves gain the following traits&lt;/p&gt;
+                &lt;p&gt;
+                &lt;span class="feature"&gt;Ability Score Increase. &lt;/span&gt;You lose the Dexterity increase but increase Wisdom by 2 and Dexterity by 1.&lt;br /&gt;
+                &lt;span class="feature"&gt;Elf Weapon Training.&lt;/span&gt;You have proficiency with the longsword, shortsword, shortbow, and longbow.&lt;br /&gt;
+                &lt;span class="feature"&gt;Fleet of Foot. &lt;/span&gt;Your base walking speed increases to 35 feet.  &lt;br /&gt;
+                &lt;span class="feature"&gt;Mask of the Wild. &lt;/span&gt;You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.  &lt;br /&gt;
+                &lt;/p&gt;
+            </html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_UA_PSK_GRANTS_ELF_SUBRACE" />
+			<stat name="wisdom" value="2" />
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+		</rules>
+	</element>
+</elements>

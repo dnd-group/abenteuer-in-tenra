@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Abenteuer in Tenra" type="Source" source="Core" id="ID_CUSO_SOURCE_ABENTEUER_IN_TENRA">
+		<setters>
+			<set name="abbreviation">AIT</set>
+			<set name="image"/>
+			<set name="url">https://github.com/dnd-group/abenteuer-in-tenra</set>
+			<set name="author" abbreviation="DNDG" url="">DnD Group</set>
+			<set name="release">20220817</set>
+			<set name="playtest">false</set>
+			<set name="homebrew">true</set>
+			<set name="incomplete">false</set>
+		</setters>
+	</element>
+</elements>
