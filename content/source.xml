@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
+    <info>
+        <update version="0.1">
+            <file name="source.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/source.xml" />
+        </update>
+    </info>
 	<element name="Abenteuer in Tenra" type="Source" source="Core" id="ID_CUSO_SOURCE_ABENTEUER_IN_TENRA">
 		<setters>
 			<set name="abbreviation">AIT</set>

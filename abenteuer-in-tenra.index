@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="1.0">
+    <update version="0.1">
       <file name="abenteuer-in-tenra.index" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/abenteuer-in-tenra.index" />
     </update>
   </info>
   <files>
     <file name="source.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/source.xml" />
+    
     <file name="races.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/races.xml" />
     <file name="backgrounds.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/backgrounds.xml" />
   </files>

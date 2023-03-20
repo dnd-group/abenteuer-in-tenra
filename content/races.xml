@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
+    <info>
+        <update version="0.1">
+            <file name="races.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/races.xml" />
+        </update>
+    </info>
 	<element name="Snow Elf" type="Sub Race" source="Abenteuer in Tenra" id="ID_DNDG_AIT_SUB_RACE_SNOW_ELF">
 		<supports>Elf</supports>
 		<description>

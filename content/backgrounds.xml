@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <update version="0.1">
+            <file name="backgrounds.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/backgrounds.xml" />
+        </update>
+    </info>
     <element name="Custom Background" type="Background" source="Abenteuer in Tenra" id="ID_DNDG_AIT_BACKGROUND_CUSTOM_BACKGROUND">
         <description>
             <p>Create your own custom background</p>
