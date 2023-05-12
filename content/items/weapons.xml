@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <update version="0.1">
+            <file name="weapons.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/items/weapons.xml" />
+        </update>
+    </info>
+    <element name="Mithral Greataxe" type="Weapon" source="Abenteuer in Tenra" id="ID_DNDG_AIT_WEAPON_GREAT_MITHRALAXE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+        <description>
+            <p/>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">40</set>
+            <set name="weight" lb="4">4 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d12</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE</set>
+        </setters>
+    </element>
+    <element name="Mithral Greataxe" type="Magic Item" source="Abenteuer in Tenra" id="ID_DNDG_AIT_MAGIC_WEAPON_MITHRAL_GREATAXE">
+        <description>
+            <p>This magical weapon is lighter than it would normally be.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">40</set>
+            <set name="type" addition="greataxe">Weapon</set>
+            <set name="rarity">Common</set>
+            <set name="attunement">true</set>
+            <set name="weapon">Mithral Greataxe</set>
+        </setters>
+    </element>
+</elements>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="0.1">
+    <update version="0.2">
       <file name="abenteuer-in-tenra.index" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/abenteuer-in-tenra.index" />
     </update>
   </info>
@@ -10,5 +10,6 @@
     
     <file name="races.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/races.xml" />
     <file name="backgrounds.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/backgrounds.xml" />
+    <file name="weapons.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/items/weapons.xml" />
   </files>
 </index>
