@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.1">
+        <update version="0.2">
             <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/items/wondrous.xml" />
         </update>
     </info>
-    <element name="Necklace of Prayer Beads" type="Magic Item" source="Abenteuer in Tenra" id="ID_DNDG_AIT_MAGIC_ITEM_NECKLACE_OF_PRAYER_BEADS">
+    <element name="Necklace of Magical Beads" type="Magic Item" source="Abenteuer in Tenra" id="ID_DNDG_AIT_MAGIC_ITEM_NECKLACE_OF_PRAYER_BEADS">
         <description>
             <p>This necklace has 3 magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.</p>
-            <p class="indent">Six types of magic beads exist. The GM decides the type of each bead on the necklace or determines it randomly. <b>The necklace has the following beeds: Bless, Cure Wounds (2nd level), Lesser restoration.</b> A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.</p>
+            <p class="indent">Six types of magic beads exist. The GM decides the type of each bead on the necklace or determines it randomly. <b>The necklace has the following beads: Bless, Cure Wounds (2nd level), Lesser restoration.</b> A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.</p>
             <table>
                 <thead>
                     <tr><td>d20</td><td>Bead of ...</td><td>Spell</td></tr>
@@ -24,13 +24,12 @@
             </table>
         </description>
         <setters>
-            <set name="keywords">cleric, druid, or paladin</set>
             <set name="category">Wondrous Items</set>
             <set name="cost" currency="gp">0</set>
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">neck</set>
             <set name="type">Wondrous Item</set>
-            <set name="attunement" addition="by a cleric, druid, or paladin">true</set>
+            <set name="attunement">true</set>
             <set name="rarity">Rare</set>
         </setters>
     </element>
