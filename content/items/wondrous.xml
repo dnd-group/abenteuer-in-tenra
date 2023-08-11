@@ -49,4 +49,17 @@
             <stat name="strength" value="1" />
         </rules>
     </element>
+    <element name="Tattoo of Long Reach" type="Magic Item" source="Abenteuer in Tenra" id="ID_DNDG_AIT_MAGIC_ITEM_TATTOO_TATTOO_OF_LONG_REACH">
+        <description>
+            <p>This tattoo has <b>charges equal to your proficiency bonus</b> and regains all expended charges when performing a <b>Long Rest</b></p>
+            <p class="indent">By expending a charge, when performing an unarmed strike, your reach is extended by 10ft for the duration of this turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">tattoo</set>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Tattoo</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
 </elements>
