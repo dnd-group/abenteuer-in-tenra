@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.3">
+        <update version="0.4">
             <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/content/items/wondrous.xml" />
         </update>
     </info>
@@ -61,5 +61,27 @@
             <set name="rarity">Very Rare</set>
             <set name="attunement">true</set>
         </setters>
+    </element>
+		<element name="Icarus Promise" type="Magic Item" source="Abenteuer in Tenra" id="ID_DNDG_AIT_MAGIC_ITEM_RING_OF_ICARUS_PROMISE">
+        <description>
+            <p>Vow. While wearing the ring you gain a +1 Bonus on all saving throws. When you break your word or lie, the bonus is suspended until the next dawn the ring flares brightly, dealing 1d6 fire damage to you as it gains a new check. If you roll a 6 on this fire damage, the ring shatters completely and is destroyed.</p>
+            <p>Sunkiss. As an action, you can cause the ring to detonate. Each creature within 20 feet of you must make a DC13 Dex saving throw, taking 8d6 fire damage and 8d6 radiant damage on a failed save, or half as much damage on a successful one. You automatically fail the saving throw. After you use this property, the ring is destroyed.</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Uncommon</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <stat name="strength:save:misc" value="1" />
+            <stat name="dexterity:save:misc" value="1" />
+            <stat name="constitution:save:misc" value="1" />
+            <stat name="wisdom:save:misc" value="1" />
+            <stat name="intelligence:save:misc" value="1" />
+            <stat name="carisma:save:misc" value="1" />
+        </rules>
     </element>
 </elements>
