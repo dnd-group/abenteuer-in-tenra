@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="0.3">
+    <update version="0.4">
       <file name="abenteuer-in-tenra.index" url="https://raw.githubusercontent.com/dnd-group/abenteuer-in-tenra/main/abenteuer-in-tenra.index" />
     </update>
   </info>
